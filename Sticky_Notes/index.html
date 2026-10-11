@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Notes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Sticky Notes</h1>
+
+    <section id="notesContainer" class="notes-container"></section>
+
+    <div class="note-input">
+      <textarea
+        id="noteInput"
+        placeholder="Type a new note..."
+        aria-label="Type a new note"
+      ></textarea>
+      <button id="addNoteBtn" type="button" aria-label="Add note">+</button>
+    </div>
+  </main>
+</body>
+</html>
